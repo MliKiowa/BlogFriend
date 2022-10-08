@@ -31,5 +31,4 @@ for key in range(len(res)):
     site = take_middle_text(res[key]['body']',"```","```")
     print(site)
     tempsite = json.loads(site)
-    os.system(f"lighthouse {tempsite.url} --output json --output-path ./{tempsite.url} .json   
- ")
+    os.system(f"lighthouse {tempsite.url} --output json --output-path ./{tempsite.url} .json")
