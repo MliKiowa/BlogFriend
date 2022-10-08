@@ -6,6 +6,7 @@ labels: ''
 assignees: ''
 
 ---
+```json
 {
     "title": "",
     "url": "",
@@ -14,4 +15,4 @@ assignees: ''
     "description": "",
     "keywords": ""
 }
-
+```
