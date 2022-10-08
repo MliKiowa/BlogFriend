@@ -28,7 +28,7 @@ url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues"
 res = requests.get(url).json
 for key in range(len(res)):
     print(res[key]['body'])
-    site = take_middle_text(res[key]['body']',"```","```")
+    site = take_middle_text(res[key]['body']',"\`\`\`","\`\`\`")
     print(site)
     tempsite = json.loads(site)
     os.system(f"lighthouse {tempsite.url} --output json --output-path ./{tempsite.url} .json")
