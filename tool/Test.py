@@ -23,7 +23,7 @@ for key in range(len(res)):
        os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
        with open(f'./{id}.json','r',encoding='utf8')as fp:
        _data = json.load(fp)
-       headers = {'Authorization': 'oauth '+sys.argv[1]}
+       headers = {'Authorization': 'oauth '+ os.environ["GHKEY"]}
        url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
        post_data = {"body":"test"}
        requests.post(url,post_data,headers)
