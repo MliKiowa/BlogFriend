@@ -18,6 +18,6 @@ for key in range(len(res)):
     tempsite = json.loads(site)
     siteurl = tempsite["url"]
     print(tempsite["url"])
-    os.system(f"lighthouse {siteurl} --output json --output-path ./{siteurl} .json")
+    os.system(f"lighthouse {siteurl} --output json --output-path ./{siteurl}.json")
 #except:
 #    print('error')
