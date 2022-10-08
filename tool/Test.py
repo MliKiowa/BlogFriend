@@ -27,6 +27,6 @@ for key in range(len(res)):
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
        post_data = {"body":"test"}
        print(os.environ["GHKEY"])
-       print(requests.post(url,json.dumps(post_data),headers))
+       print(requests.post(url,headers=headers, data=json.dumps(post_data)))
 #except:
 #    print('error')
