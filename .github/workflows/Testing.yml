@@ -20,6 +20,7 @@ jobs:
     - name: Install requirements 
       run: | 
         pip install selenium
+        apt install chromium-browser
     - name: Setting Environment
       run: |
         wget -O- https://intoli.com/install-google-chrome.sh | sh
