@@ -13,7 +13,6 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 18.x
-        cache: 'npm'
     - name: LightHouse Testing
       run: |
        npm install -g lighthouse
