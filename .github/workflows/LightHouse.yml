@@ -19,14 +19,14 @@ jobs:
         python-version: '3.8'
     - name: LightHouse Testing
       env:
-        GHKEY: ${{ secrets.GH_TONKEN }}
+        GHKEY: ${{ secrets.GH_TOKEN }}
       run: |
        npm install -g lighthouse
        sudo apt-get install xvfb
        Xvfb :7 -screen 0 1336x768x24 2>/dev/null &
        export DISPLAY=:7
        pip install requests
-       python tool/Test.py {GH_TOKEN}
+       python tool/Test.py
        ls
 # lighthouse https://nanaeo.cn --output json --output-path ./domain.json   
 # cat domain.json   
