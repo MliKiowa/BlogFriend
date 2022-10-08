@@ -24,7 +24,7 @@ for key in range(len(res)):
        fp = open(f'./{id}.json','r',encoding='utf8')
        test_data = json.load(fp)
        headers = {'Authorization': 'oauth '+ os.environ["GHKEY"]}
-       url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
+       url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
        post_data = {"body":"test"}
        print(os.environ["GHKEY"])
        print(requests.post(url,post_data,headers))
