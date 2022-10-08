@@ -24,7 +24,7 @@ def take_middle_text(txt,txt_s,txt_e='',seeks=0,seeke=0):#取中间文本函数
         return '传参错误或未找到传参文本'
 
 url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues" 
-res = requests.get(url).json
+res = requests.get(url).json()
 print(res)
 try:
   for key in range(len(res)):
