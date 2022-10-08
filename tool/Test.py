@@ -22,7 +22,7 @@ for key in range(len(res)):
     if "labels" not in res[key]:
        os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
        with open(f'./{id}.json','r',encoding='utf8')as fp:
-       _data = json.load(fp)
+       test_data = json.load(fp)
        headers = {'Authorization': 'oauth '+ os.environ["GHKEY"]}
        url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
        post_data = {"body":"test"}
