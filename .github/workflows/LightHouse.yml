@@ -28,5 +28,6 @@ jobs:
        pip install requests
        python tool/Test.py
        ls
+       cat 1.json
 # lighthouse https://nanaeo.cn --output json --output-path ./domain.json   
 # cat domain.json   
