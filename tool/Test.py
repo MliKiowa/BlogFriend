@@ -13,11 +13,12 @@ url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues"
 res = requests.get(url).json()
 #try:
 for key in range(len(res)):
-    print(res[key]['body'])
+    print(res[key]['id'])
+    id = res[key]['id']
     site = "{"+getmidstring(res[key]['body'],"{","}")+"}"    
     tempsite = json.loads(site)
     siteurl = tempsite["url"]
     print(tempsite["url"])
-    os.system(f"lighthouse {siteurl} --output json --output-path ./{siteurl}.json")
+    os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
 #except:
 #    print('error')
