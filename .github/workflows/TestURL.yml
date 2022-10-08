@@ -3,6 +3,7 @@ name: Python application
 on:
   issue:
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,5 +20,4 @@ jobs:
     - name: Setting Environment
       run: |
         wget -O- https://intoli.com/install-google-chrome.sh | sh
-
     
