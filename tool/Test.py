@@ -25,7 +25,7 @@ for key in range(len(res)):
        test_data = json.load(fp)
        headers = {'Authorization': 'token '+ os.environ["GHKEY"]}
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
-       post_data = {"body":"test"}
+       post_data = {"body":fp.read()}
        print(os.environ["GHKEY"])
        print(requests.post(url,headers=headers, data=json.dumps(post_data)))
 #except:
