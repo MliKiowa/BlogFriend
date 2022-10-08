@@ -1,0 +1,23 @@
+name: Python application
+
+on:
+  issue:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Set up Python 
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install requirements 
+      run: | 
+        pip install selenium
+    - name: Setting Environment
+      run: |
+        wget -O- https://intoli.com/install-google-chrome.sh | sh
+
+    
