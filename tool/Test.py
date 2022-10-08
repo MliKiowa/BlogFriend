@@ -19,7 +19,7 @@ for key in range(len(res)):
     tempsite = json.loads(site)
     siteurl = tempsite["url"]
     print(tempsite["url"])
-    if len(res[key]["labels"]) = 0:
+    if len(res[key]["labels"]) == 0:
        os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
        fp = open(f'./{id}.json','r',encoding='utf8')
        test_data = json.load(fp)
