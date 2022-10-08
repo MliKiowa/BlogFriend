@@ -14,11 +14,18 @@ res = requests.get(url).json()
 #try:
 for key in range(len(res)):
     print(res[key]['id'])
-    id = res[key]['id']
+    id = res[key]['number']
     site = "{"+getmidstring(res[key]['body'],"{","}")+"}"    
     tempsite = json.loads(site)
     siteurl = tempsite["url"]
     print(tempsite["url"])
-    os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
+    if "labels" not in res[key]
+       os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
+       with open(f'./{id}.json','r',encoding='utf8')as fp:
+       _data = json.load(fp)
+       headers = {'Authorization': 'oauth '+sys.argv[1]}
+       url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
+       post_data = {"body":"test"}
+       requests.post(url,post_data,headers)
 #except:
 #    print('error')
