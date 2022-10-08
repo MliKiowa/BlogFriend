@@ -19,13 +19,14 @@ for key in range(len(res)):
     tempsite = json.loads(site)
     siteurl = tempsite["url"]
     print(tempsite["url"])
-    if "labels" not in res[key]:
+    if len(res[key]["labels"]) = 0:
        os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
        fp = open(f'./{id}.json','r',encoding='utf8')
        test_data = json.load(fp)
        headers = {'Authorization': 'oauth '+ os.environ["GHKEY"]}
        url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
        post_data = {"body":"test"}
-       requests.post(url,post_data,headers)
+       print(os.environ["GHKEY"])
+       print(requests.post(url,post_data,headers))
 #except:
 #    print('error')
