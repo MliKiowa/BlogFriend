@@ -12,7 +12,7 @@ def getmidstring(html, start_str, end):
 url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues" 
 res = requests.get(url).json()
 #try:
-  for key in range(len(res)):
+for key in range(len(res)):
     print(res[key]['body'])
     site = "{"+getmidstring(res[key]['body'],"{","}")+"}"    
     tempsite = json.loads(site)
