@@ -23,7 +23,7 @@ jobs:
        sudo apt-get install xvfb
        Xvfb :7 -screen 0 1336x768x24 2>/dev/null &
        export DISPLAY=:7
-       py tool/Test.py
+       python tool/Test.py
        ls
 # lighthouse https://nanaeo.cn --output json --output-path ./domain.json   
 # cat domain.json   
