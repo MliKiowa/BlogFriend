@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 import requests
-import sys,json
+import sys,json,os
 def take_middle_text(txt,txt_s,txt_e='',seeks=0,seeke=0):#取中间文本函数
     try:
         if txt_e or seeks or seeke:
@@ -31,4 +31,5 @@ for key in range(len(res)):
     site = take_middle_text(res[key]['body']',"```","```")
     print(site)
     tempsite = json.loads(site)
-    print(site.url)
+    os.system(f"lighthouse {tempsite.url} --output json --output-path ./{tempsite.url} .json   
+ ")
