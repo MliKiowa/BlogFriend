@@ -15,7 +15,7 @@ print(res)
 try:
   for key in range(len(res)):
     print(res[key]['body'])
-    site = getmidstring(res[key]['body'],"\`\`\`","\`\`\`")
+    site = "{"+getmidstring(res[key]['body'],"{","}")+"}"
     print(site)
     tempsite = json.loads(site)
     os.system(f"lighthouse {tempsite.url} --output json --output-path ./{tempsite.url} .json")
