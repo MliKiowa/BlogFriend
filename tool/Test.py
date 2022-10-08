@@ -11,7 +11,6 @@ def getmidstring(html, start_str, end):
 
 url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues" 
 res = requests.get(url).json()
-print(res)
 try:
   for key in range(len(res)):
     print(res[key]['body'])
