@@ -18,6 +18,8 @@ jobs:
       with:
         python-version: '3.8'
     - name: LightHouse Testing
+      env:
+        GHKEY: ${{ secrets.GH_TONKEN }}
       run: |
        npm install -g lighthouse
        sudo apt-get install xvfb
