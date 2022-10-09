@@ -28,6 +28,7 @@ jobs:
        export DISPLAY=:7
        pip install requests
        python tool/Test.py
+       python tool/Generate.py
        # ls
        # cat 1.json
     - name: File commit
