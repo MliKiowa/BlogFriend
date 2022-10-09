@@ -10,11 +10,10 @@ assignees: ''
 <!-- 请在双引号中填写，不要修改模板格式 -->
 ```json
 {
-    "title": "",
-    "url": "",
-    "avatar": "",
-    "screenshot": "",
-    "description": "",
-    "keywords": ""
+'title': 'Mr_G’ blog',
+'keywords': ['个人博客'],
+'url': 'https://www.mrgblog.top',
+'description': '昨夜星辰已逝 满眼青山已远',
+'avatar': 'https://www.mrgblog.top/upload/2022/08/touxiang.jpg'
 }
 ```
