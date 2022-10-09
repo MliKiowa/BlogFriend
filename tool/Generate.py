@@ -14,12 +14,12 @@ res = requests.get(url).json()
 
 f = open('friend.yml', 'r', encoding='utf-8')
 sitey = yaml.load(f.read(), Loader=yaml.FullLoader)
-tsite = {}
+tsite = []
 for key in range(len(res)):
     id = res[key]['number']
     sitejson = "{" + getmidstring(res[key]['body'],"{","}") + "}"    
     if (len(res[key]["labels"]) >= 0) and (res[key]["labels"][0]["name"] == "pass"):      
-      tsite.update(json.loads(sitejson))
+      tsite[key] = json.loads(sitejson)
 print(tsite)
 # sitey["items"] = sitey["items"].update(tsite)
 # stream = open("test/friend.yml", 'w+')
