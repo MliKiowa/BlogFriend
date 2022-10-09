@@ -22,5 +22,5 @@ for key in range(len(res)):
       tsite[key] = json.loads(sitejson)
 print(sitey[0]["items"])
 sitey[0]["items"]= sitey[0]["items"] + [tsite]
-# stream = open("test/friend.yml", 'w+')
-# yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
+stream = open("test/friend.yml", 'w+')
+yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
