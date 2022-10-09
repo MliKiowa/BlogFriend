@@ -14,7 +14,7 @@ res = requests.get(url).json()
 
 f = open('friend.yml', 'r', encoding='utf-8')
 sitey = yaml.load(f.read(), Loader=yaml.FullLoader)
-tsite = []
+tsite = {}
 for key in range(len(res)):
     id = res[key]['number']
     sitejson = "{" + getmidstring(res[key]['body'],"{","}") + "}"    
