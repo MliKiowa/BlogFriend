@@ -11,7 +11,6 @@ def getmidstring(html, start_str, end):
 
 url = "https://api.github.com/repos/Mlikiowa/BlogFriend/issues" 
 res = requests.get(url).json()
-#try:
 for key in range(len(res)):
     print(res[key]['id'])
     id = res[key]['number']
@@ -21,19 +20,12 @@ for key in range(len(res)):
     print(tempsite["url"])
     if len(res[key]["labels"]) == 0:
        os.system(f"lighthouse {siteurl} --output html --output-path ./test/site–{id}.html")
-       # os.system(f"git add ./test/site–{id}.html")  
-       fp = open(f'./{id}.json','r',encoding='utf8')
-       test_data = json.load(fp)
+       # os.system(f"git add ./test/site–{id}.html")        
        headers = {'Authorization': 'token '+ os.environ["GHKEY"]}
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
        Test_Url = f"https://friend.nanaeo.cn/test/site%E2%80%93{id}.html"  
-       post_data = {"body":"LightHouse Testing Ok,Then Go [there]({Test_Url})"}
-       print(os.environ["GHKEY"])
+       post_data = {"body":"LightHouse Testing Ok,Then Go [there]({Test_Url})"}      
        print(requests.post(url,headers=headers, data=json.dumps(post_data)))
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/labels" 
-       post_data = {"labels":["suspend"]}
-       print(os.environ["GHKEY"])
+       post_data = {"labels":["suspend"]}      
        print(requests.post(url,headers=headers, data=json.dumps(post_data)))
-
-#except:
-#    print('error')
