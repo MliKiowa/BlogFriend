@@ -15,6 +15,7 @@ for key in range(len(res)):
     id = res[key]['number']
     sitejson = "{" + getmidstring(res[key]['body'],"{","}") + "}"    
     if (len(res[key]["labels"]) >= 0) and (res[key]["labels"][0]["name"] == "pass"):
-      sitey = yaml.load(sitejson, Loader=yaml.FullLoader)
+      print(sitejson)  
+      sitey = yaml.load(sitejson, Loader=yaml.FullLoader,allow_unicode=True)
       stream = open("test/friend.yaml", 'w+')
       yaml.safe_dump(sitey, stream, default_flow_style=False)
