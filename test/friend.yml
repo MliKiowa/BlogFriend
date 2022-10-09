@@ -114,17 +114,15 @@
     - 个人博客
     title: 星野鈴美
     url: https://uniiem.com/
-  - 0:
-      avatar: demo
-      description: demo
-      keywords: demo
-      screenshot: demo
-      title: 测试内容
-      url: https://yang5201314.cn
-    1:
-      avatar: ''
-      description: ''
-      keywords: ''
-      screenshot: ''
-      title: ''
-      url: https://nanaeo.cn/
+  - avatar: demo
+    description: demo
+    keywords: demo
+    screenshot: demo
+    title: 测试内容
+    url: https://yang5201314.cn
+  - avatar: ''
+    description: ''
+    keywords: ''
+    screenshot: ''
+    title: ''
+    url: https://nanaeo.cn/
