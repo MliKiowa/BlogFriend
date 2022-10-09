@@ -20,7 +20,8 @@ for key in range(len(res)):
     siteurl = tempsite["url"]
     print(tempsite["url"])
     if len(res[key]["labels"]) == 0:
-       os.system(f"lighthouse {siteurl} --output json --output-path ./{id}.json")
+       os.system(f"lighthouse {siteurl} --output json --output-path ./test/{id}.json")
+       os.system(f"git add ./test/{id}.json")  
        fp = open(f'./{id}.json','r',encoding='utf8')
        test_data = json.load(fp)
        headers = {'Authorization': 'token '+ os.environ["GHKEY"]}
