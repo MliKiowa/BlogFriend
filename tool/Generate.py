@@ -24,6 +24,6 @@ for key in range(len(res)):
 print(sitey[0]["items"])
 stream = open("test/friend.yml", 'w+')
 yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
-post_data = '{"event_type":"FriendGenerate","client_payload":{"unit":false,"integration":true}}'
+post_data = '{"event_type":"FriendGenerate"}'
 url="https://api.github.com/repos/Mlikiowa/BlogFriend/dispatches"
 print(requests.post(url,headers=headers, data=json.dumps(post_data)))
