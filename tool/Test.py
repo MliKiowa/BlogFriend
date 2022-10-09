@@ -23,7 +23,7 @@ for key in range(len(res)):
        # os.system(f"git add ./test/site–{id}.html")        
        headers = {'Authorization': 'token '+ os.environ["GHKEY"]}
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
-       Test_Url = "https://friend.nanaeo.cn/test/site%E2%80%93{id}.html"  
+       Test_Url = "https://friend.nanaeo.cn/test/site–{id}.html"  
        post_data = {"body":"LightHouse Testing Ok,Then Go [there]("+Test_Url+")"}      
        print(requests.post(url,headers=headers, data=json.dumps(post_data)))
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/labels" 
