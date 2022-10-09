@@ -33,7 +33,8 @@ jobs:
     - name: File commit
       run: |
           git config --global user.email nineto0@qq.com
-          git config --global user.name Mlikiowa        
+          git config --global user.name Mlikiowa  
+          git add test      
           git commit -m "Light HouseTest" -a		
     - name: Push changes
       uses: ad-m/github-push-action@master
