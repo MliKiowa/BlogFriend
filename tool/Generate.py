@@ -21,7 +21,7 @@ for key in range(len(res)):
     if (len(res[key]["labels"]) >= 0) and (res[key]["labels"][0]["name"] == "pass"):      
       tsite = json.loads(sitejson)
       sitey[0]["items"]= sitey[0]["items"] + [tsite]
-print(sitey[0]["items"])
+print(headers)
 stream = open("test/friend.yml", 'w+')
 yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
 post_data = '{"event_type":"FriendGenerate"}'
