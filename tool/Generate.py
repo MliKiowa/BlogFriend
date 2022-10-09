@@ -21,5 +21,5 @@ for key in range(len(res)):
     if (len(res[key]["labels"]) >= 0) and (res[key]["labels"][0]["name"] == "pass"):      
       tsite.append(json.loads(sitejson))
 sitey["items"].append(tsite)
-stream = open("test/friend.yaml", 'w+')
+stream = open("test/friend.yml", 'w+')
 yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
