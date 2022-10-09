@@ -27,6 +27,7 @@ jobs:
        Xvfb :7 -screen 0 1336x768x24 2>/dev/null &
        export DISPLAY=:7
        pip install requests
+       pip install pyyaml
        python tool/Test.py
        python tool/Generate.py
        # ls
