@@ -26,4 +26,4 @@ stream = open("test/friend.yml", 'w+')
 yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
 post_data = '{"event_type":"FriendGenerate"}'
 url="https://api.github.com/repos/Mlikiowa/BlogFriend/dispatches"
-print(requests.post(url,headers=headers, data=json.dumps(post_data)))
+print(requests.post(url,headers=headers, data=post_data))
