@@ -20,7 +20,7 @@ for key in range(len(res)):
     sitejson = "{" + getmidstring(res[key]['body'],"{","}") + "}"    
     if (len(res[key]["labels"]) >= 0) and (res[key]["labels"][0]["name"] == "pass"):      
       tsite[key] = json.loads(sitejson)
-print(sitey.[0]["items"])
+print(sitey[0]["items"])
 sitey.[0]["items"]= sitey.items.append(tsite)
 # stream = open("test/friend.yml", 'w+')
 # yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
