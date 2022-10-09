@@ -27,7 +27,7 @@ for key in range(len(res)):
        headers = {'Authorization': 'token '+ os.environ["GHKEY"]}
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
        Test_Url = f"https://friend.nanaeo.cn/test/site%E2%80%93{id}.html"  
-       post_data = {"body":"LightHouse Testing Ok,Then Go "}
+       post_data = {"body":"LightHouse Testing Ok,Then Go [there]({Test_Url})"}
        print(os.environ["GHKEY"])
        print(requests.post(url,headers=headers, data=json.dumps(post_data)))
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/labels" 
