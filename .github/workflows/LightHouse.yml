@@ -28,16 +28,15 @@ jobs:
        pip install requests
        python tool/Test.py
        ls
-       cat 1.json
+       # cat 1.json
     - name: File commit
       run: |
           git config --global user.email nineto0@qq.com
-          git config --global user.name Mlikiowa
-          git add 1.json
+          git config --global user.name Mlikiowa        
           git commit -m "Light HouseTest" -a		
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
           github_token: ${{ secrets.GH_TOKEN }}
-# lighthouse https://nanaeo.cn --output json --output-path ./domain.json   
+# lighthouse https://nanaeo.cn --output html --output-path ./domain.json   
 # cat domain.json    
