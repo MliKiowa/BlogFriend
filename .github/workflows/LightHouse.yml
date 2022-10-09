@@ -26,6 +26,7 @@ jobs:
        Xvfb :7 -screen 0 1336x768x24 2>/dev/null &
        export DISPLAY=:7
        pip install requests
+       rm -rf test
        mkdir test
        python tool/Test.py
        ls
