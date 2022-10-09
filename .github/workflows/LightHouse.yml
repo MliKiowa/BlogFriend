@@ -2,7 +2,7 @@ name: LightHouse
 
 on:
   workflow_dispatch:
-
+  issues:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,7 +29,7 @@ jobs:
        rm -rf test
        mkdir test
        python tool/Test.py
-       ls
+       # ls
        # cat 1.json
     - name: File commit
       run: |
