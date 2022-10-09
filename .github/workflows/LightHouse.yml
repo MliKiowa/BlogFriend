@@ -32,7 +32,7 @@ jobs:
        # cat 1.json
     - name: File commit
       run: |
-          git config --global user.email nineto0@qq.com
+          git config --global user.email nineto0@163.com
           git config --global user.name Mlikiowa  
           git add test      
           git commit -m "Light HouseTest" -a		
