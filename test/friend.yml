@@ -1,6 +1,130 @@
-avatar: demo
-description: demo
-keywords: demo
-screenshot: demo
-title: 测试内容
-url: https://yang5201314.cn
+- description: Friends Blog
+  group: 友链
+  icon: font awesome icons
+  items:
+  - avatar: https://imgod.me/img/god.png
+    description: 寒江孤影，江湖故人，相逢何必曾相识
+    keywords:
+    - 寒江孤影
+    - 江湖故人
+    screenshot: null
+    title: 故人随笔
+    url: https://imgod.me/
+  - avatar: https://s1.ax1x.com/2022/03/12/bHrvDI.png
+    description: 摄影知识,每日新闻,中药知识等知识分享
+    keywords:
+    - 摄影知识
+    - 每日新闻
+    screenshot: null
+    title: HOMIE STUDIO
+    url: https://www.ffnb.top/
+  - avatar: https://cdn.xxhzm.cn/xxhzm/head.jpg
+    description: 记录美好生活
+    keywords:
+    - 个人博客
+    - 记录生活
+    screenshot: null
+    title: 小小孩子们的Blog
+    url: https://www.xxhzm.cn
+  - avatar: https://test.aimuya.cn/storage/users/files/1/2022-08/1659920471.jpg
+    description: 一个喜欢搞键盘外设的码农
+    keywords:
+    - 个人博客
+    - 键盘码农
+    screenshot: null
+    title: 艾木
+    url: https://aimuya.cn
+  - avatar: https://s1.ax1x.com/2022/03/13/bqyIpT.jpg
+    description: 路漫漫其修远兮，吾将上下而求索
+    keywords:
+    - 个人博客
+    screenshot: null
+    title: 咕咕咕
+    url: https://cooooing.github.io/
+  - avatar: https://zx.js.cool/avatar.webp
+    description: Java资源速查
+    keywords:
+    - 个人博客
+    screenshot: null
+    title: zx's blog
+    url: https://zx.js.cool
+  - avatar: https://ik.imagekit.io/nicexl/head.jpg
+    description: 最好的地方，是没去过的地方。最美好的时光，是回不去的时光。
+    keywords:
+    - 个人博客
+    title: Xlencoの小窝
+    url: https://xlenco.eu.org
+  - avatar: https://xiao-luo17.github.io/img/avatar.jpg
+    description: Welcome to my blog!
+    keywords:
+    - 个人博客
+    title: 小罗の小窝
+    url: https://xiao-luo17.github.io/
+  - avatar: https://cravatar.cn/avatar/fbb60b271ab2439df3c843ffc9bbf665?s=256
+    description: 一个安静的博客
+    keywords:
+    - 个人博客
+    title: 彩虹小屋
+    url: https://blog.moieo.top
+  - avatar: https://wzx.is-a.dev/images/avatar.png
+    description: wzx个人主页
+    keywords:
+    - 个人主页
+    title: wzx
+    url: https://wzx.is-a.dev/
+  - avatar: https://q1.qlogo.cn/g?b=qq&nk=763771418&s=100
+    description: 以指键之轻，承载知识之重
+    keywords:
+    - 个人书房
+    title: 公爵书房
+    url: https://www.gjcloak.top/
+  - avatar: https://img.cdn.luomoe.com/2020/03/cropped-logo2-1.png
+    description: 无限进步
+    keywords:
+    - 个人博客
+    title: 胖螺
+    url: https://blog.luomoe.com/
+  - avatar: https://q1.qlogo.cn/g?b=qq&nk=1596355173&s=100
+    description: 有秉性且正直的松
+    keywords:
+    - 个人博客
+    title: 秉松博客
+    url: https://blog.iucky.cn
+  - avatar: https://www.mrgblog.top/upload/2022/08/touxiang.jpg
+    description: 昨夜星辰已逝 满眼青山已远
+    keywords:
+    - 个人博客
+    title: Mr_G’ blog
+    url: https://www.mrgblog.top
+  - avatar: https://q1.qlogo.cn/g?b=qq&nk=3509143438&s=100
+    description: 个人博客
+    keywords:
+    - 个人博客
+    title: Meteorite’ blog
+    url: https://meteorite.sbs
+  - avatar: https://hd.srve.cn/storage/users/uid-1/1661480088.jpg
+    description: 这里有趣，有料，有诗，有酒
+    keywords:
+    - 个人博客
+    title: 风雨阁博客
+    url: https://srve.cn/
+  - avatar: https://uniiem.com/assets/image/avatar.jpg
+    description: 星野鈴美
+    keywords:
+    - 个人博客
+    title: 星野鈴美
+    url: https://uniiem.com/
+  - 0:
+      avatar: demo
+      description: demo
+      keywords: demo
+      screenshot: demo
+      title: 测试内容
+      url: https://yang5201314.cn
+    1:
+      avatar: ''
+      description: ''
+      keywords: ''
+      screenshot: ''
+      title: ''
+      url: https://nanaeo.cn/
