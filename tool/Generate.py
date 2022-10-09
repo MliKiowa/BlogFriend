@@ -14,8 +14,8 @@ res = requests.get(url).json()
 
 f = open('friend.yml', 'r', encoding='utf-8')
 sitey = yaml.load(f.read(), Loader=yaml.FullLoader)
+tsite = {}
 for key in range(len(res)):
-    tsite = {}
     id = res[key]['number']
     sitejson = "{" + getmidstring(res[key]['body'],"{","}") + "}"    
     if (len(res[key]["labels"]) >= 0) and (res[key]["labels"][0]["name"] == "pass"):      
