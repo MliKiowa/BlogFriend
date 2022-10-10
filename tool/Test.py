@@ -19,7 +19,7 @@ for key in range(len(res)):
     siteurl = tempsite["url"]
     print(tempsite["url"])
     if len(res[key]["labels"]) == 0:
-       os.system(f"lighthouse {siteurl} --output html --output-path ./test/site–{id}.html")
+       os.system(f"lighthouse {siteurl} --output html --locale zh --output-path ./test/site–{id}.html")
        # os.system(f"git add ./test/site–{id}.html")        
        headers = {'Authorization': 'token '+ os.environ["GHKEY"]}
        url = f"https://api.github.com/repos/Mlikiowa/BlogFriend/issues/{id}/comments" 
