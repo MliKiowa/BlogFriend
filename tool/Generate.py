@@ -25,5 +25,5 @@ print(headers)
 stream = open("test/friend.yml", 'w+')
 yaml.safe_dump(sitey, stream, default_flow_style=False,allow_unicode=True)
 post_data = '{"event_type":"FriendGenerate"}'
-url="https://api.github.com/repos/Mlikiowa/MliKiowa.github.io/dispatches"
+url="https://api.github.com/repos/Mlikiowa/nanaeo/dispatches"
 print(requests.post(url,headers=headers, data=post_data))
