@@ -32,27 +32,11 @@
       screenshot: # 截图
       keywords: [ 个人博客 ] # 关键词
       description: 路漫漫其修远兮，吾将上下而求索
-    - title: zx's blog
-      screenshot: # 截图
-      url: https://zx.js.cool
-      keywords: [ 个人博客 ] # 关键词
-      description: Java资源速查
-      avatar: https://zx.js.cool/avatar.webp
     - title: Xlencoの小窝
       url: https://xlenco.eu.org
       keywords: [ 个人博客 ] # 关键词
       avatar: https://ik.imagekit.io/nicexl/head.jpg
       description: 最好的地方，是没去过的地方。最美好的时光，是回不去的时光。
-    - title: 小罗の小窝
-      url: https://xiao-luo17.github.io/
-      keywords: [ 个人博客 ] # 关键词
-      avatar: https://xiao-luo17.github.io/img/avatar.jpg
-      description: Welcome to my blog!
-    - title: 彩虹小屋
-      url: https://blog.moieo.top
-      keywords: [ 个人博客 ]
-      description: 一个安静的博客
-      avatar: https://cravatar.cn/avatar/fbb60b271ab2439df3c843ffc9bbf665?s=256
     - title: wzx
       url: https://wzx.is-a.dev/
       description: wzx个人主页
@@ -83,11 +67,6 @@
       url: https://meteorite.sbs
       description: 个人博客
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3509143438&s=100 
-    - title: 风雨阁博客
-      description: 这里有趣，有料，有诗，有酒
-      url: https://srve.cn/
-      keywords: [ 个人博客 ]
-      avatar: https://hd.srve.cn/storage/users/uid-1/1661480088.jpg
     - title: 星野鈴美
       description: 星野鈴美
       avatar: https://uniiem.com/assets/image/avatar.jpg
