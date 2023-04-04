@@ -20,12 +20,6 @@
       screenshot: # 截图
       keywords: [ 个人博客 , 记录生活 ] # 关键词
       description: 记录美好生活 
-    - title: 艾木 # 名称
-      avatar: https://test.aimuya.cn/storage/users/files/1/2022-08/1659920471.jpg # 头像
-      url: https://aimuya.cn # 链接
-      screenshot: # 截图
-      keywords: [ 个人博客 , 键盘码农 ] # 关键词
-      description: 一个喜欢搞键盘外设的码农
     - title: 咕咕咕 
       avatar: https://s1.ax1x.com/2022/03/13/bqyIpT.jpg # 头像
       url: https://cooooing.github.io/ # 链接
@@ -42,26 +36,11 @@
       description: wzx个人主页
       keywords: [ 个人主页 ]
       avatar: https://wzx.is-a.dev/images/avatar.png
-    - title: 公爵书房
-      url: https://www.gjcloak.top/
-      avatar: https://q1.qlogo.cn/g?b=qq&nk=763771418&s=100
-      description: 以指键之轻，承载知识之重
-      keywords: [ 个人书房 ]
     - title: 胖螺
       description: 无限进步
       keywords: [ 个人博客 ]
       url: https://blog.luomoe.com/
       avatar: https://img.cdn.luomoe.com/2020/03/cropped-logo2-1.png
-    - title: 秉松博客
-      description: 有秉性且正直的松
-      keywords: [ 个人博客 ]
-      url: https://blog.iucky.cn
-      avatar: https://q1.qlogo.cn/g?b=qq&nk=1596355173&s=100 
-    - title: Mr_G’ blog
-      keywords: [ 个人博客 ]
-      url: https://www.mrgblog.top
-      description: 昨夜星辰已逝 满眼青山已远
-      avatar: https://www.mrgblog.top/upload/2022/08/touxiang.jpg
     - title: Meteorite’ blog
       keywords: [ 个人博客 ]
       url: https://meteorite.sbs
