@@ -26,14 +26,6 @@
     screenshot: null
     title: 小小孩子们的Blog
     url: https://www.xxhzm.cn
-  - avatar: https://test.aimuya.cn/storage/users/files/1/2022-08/1659920471.jpg
-    description: 一个喜欢搞键盘外设的码农
-    keywords:
-    - 个人博客
-    - 键盘码农
-    screenshot: null
-    title: 艾木
-    url: https://aimuya.cn
   - avatar: https://s1.ax1x.com/2022/03/13/bqyIpT.jpg
     description: 路漫漫其修远兮，吾将上下而求索
     keywords:
@@ -53,30 +45,12 @@
     - 个人主页
     title: wzx
     url: https://wzx.is-a.dev/
-  - avatar: https://q1.qlogo.cn/g?b=qq&nk=763771418&s=100
-    description: 以指键之轻，承载知识之重
-    keywords:
-    - 个人书房
-    title: 公爵书房
-    url: https://www.gjcloak.top/
   - avatar: https://img.cdn.luomoe.com/2020/03/cropped-logo2-1.png
     description: 无限进步
     keywords:
     - 个人博客
     title: 胖螺
     url: https://blog.luomoe.com/
-  - avatar: https://q1.qlogo.cn/g?b=qq&nk=1596355173&s=100
-    description: 有秉性且正直的松
-    keywords:
-    - 个人博客
-    title: 秉松博客
-    url: https://blog.iucky.cn
-  - avatar: https://www.mrgblog.top/upload/2022/08/touxiang.jpg
-    description: 昨夜星辰已逝 满眼青山已远
-    keywords:
-    - 个人博客
-    title: Mr_G’ blog
-    url: https://www.mrgblog.top
   - avatar: https://q1.qlogo.cn/g?b=qq&nk=3509143438&s=100
     description: 个人博客
     keywords:
