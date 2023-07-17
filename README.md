@@ -9,4 +9,4 @@
 # 如何申请
 你仅仅需要提个[issue](https://github.com/MliKiowa/BlogFriend/issues)参考格式填写就能够得到批准啦
 
-https://github.com/MliKiowa/PyFriend
+https://github.com/MliKiowa/BlogFriend
